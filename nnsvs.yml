@@ -1,0 +1,10 @@
+name: nnsvs
+channels:
+  - conda-forge
+dependencies:
+  - numpy<1.20
+  - pip
+  - pip:
+    - nnmnkwii==0.1.1
+    - nnsvs==0.0.2
+    - pysinsy==0.0.4
